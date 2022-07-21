@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    width: 500px;
+    width: 550px;
 }
 
 .header {
@@ -115,7 +115,7 @@ body {
     display: flex;
 }
 
-.top #img {
+.top .img {
     border-radius: 50%;
     width: 130px;
     height: 130px;
@@ -130,16 +130,16 @@ body {
     justify-content: center;
 }
 
-.info #name {
+.info .name {
     color: #fff;
 }
 
-.info #joined {
+.info .joined {
     color: #97A2B9;
     
 }
 
-.info #nick {
+.info .nick {
     color: #0f69de;
 }
 
@@ -181,6 +181,10 @@ body {
 .links .first-side .div-first, .second-side .div-second{
     display: flex;
     align-items: center;
+}
+
+.second-side {
+    margin-left: 20px;
 }
 
 .links .first-side .div-first .same, .second-side .div-second .same {
