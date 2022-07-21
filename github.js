@@ -1,6 +1,7 @@
 let g = (id) => document.getElementById(id)
 let search = g("search")
 let btn = g("btn")
+let result = g('result')
 btn.addEventListener('click', () => result())
 
 
