@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #141C2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    width: 500px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.header h3 {
+    font-size: 25px;
+}
+
+.header .theme {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.theme span {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.theme svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header i {
+    display: block;
+}
+
+.search {
+    background-color: #1F2A48;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search div {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.search div input{
+    background: transparent;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    font-family: 'Roboto Mono', monospace;
+    outline: none;
+    border: none;
+    font-size: 18px;
+
+}
+
+.search div input::placeholder {
+    color: #97A2B9;
+}
+
+.search-icon {
+    color: #0f69de;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(.98);
+}
+
+.result {
+    padding: 35px;
+    background-color: #1F2A48;
+    border-radius: 8px;
+}
+
+.top {
+    display: flex;
+}
+
+.top img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.top .info {
+    margin-left: 40px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info h2 {
+    color: #fff;
+}
+
+.info p {
+    color: #97A2B9;
+    
+}
+
+.info span {
+    color: #0f69de;
+}
+
+.bio {
+    color: #97A2B9;
+    margin-top: 30px;
+}
+
+.follows-repos {
+    background-color: #141D2F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.same {
+    color: #97A2B9;
+}
+
+.nums {
+    margin-top: 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.links .first-side div, .second-side div{
+    margin: 20px 0;
+}
+
+.links .first-side div, .second-side div{
+    display: flex;
+    align-items: center;
+}
+
+.links .first-side div i, .second-side div i {
+    color: #fff;
+}
+
+.links .first-side div p, .second-side div p {
+    color: #97A2B9;
+    margin-left: 15px;
+}
