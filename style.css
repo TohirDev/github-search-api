@@ -115,7 +115,7 @@ body {
     display: flex;
 }
 
-.top img {
+.top #img {
     border-radius: 50%;
     width: 130px;
     height: 130px;
@@ -130,16 +130,16 @@ body {
     justify-content: center;
 }
 
-.info h2 {
+.info #name {
     color: #fff;
 }
 
-.info p {
+.info #joined {
     color: #97A2B9;
     
 }
 
-.info span {
+.info #nick {
     color: #0f69de;
 }
 
@@ -174,20 +174,20 @@ body {
     margin-top: 20px;
 }
 
-.links .first-side div, .second-side div{
+.links .first-side .div-first, .second-side .div-second{
     margin: 20px 0;
 }
 
-.links .first-side div, .second-side div{
+.links .first-side .div-first, .second-side .div-second{
     display: flex;
     align-items: center;
 }
 
-.links .first-side div i, .second-side div i {
+.links .first-side .div-first .same, .second-side .div-second .same {
     color: #fff;
 }
 
-.links .first-side div p, .second-side div p {
+.links .first-side .div-first .similar, .second-side .div-second .similar {
     color: #97A2B9;
     margin-left: 15px;
 }
